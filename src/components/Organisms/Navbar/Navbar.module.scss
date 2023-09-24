@@ -1,0 +1,20 @@
+@import "./../../../scss/_variables.scss";
+
+.navbar {
+	border-bottom: 2px solid $gray-800;
+	padding: 2rem 3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	@media screen and (max-width: $breakpoint-sm) {
+		padding: 1rem;
+	}
+
+	.navbar__brand {
+		font-size: $font-2xl;
+		font-weight: 500;
+		color: $text;
+		text-decoration: none;
+	}
+}

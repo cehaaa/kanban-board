@@ -1,0 +1,11 @@
+.badge__wrapper {
+  display: flex;
+  padding: 1rem 1rem 0 1rem;
+  width: 100%;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.badge__wrapper::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=BadgeGroup.module.css.map */

@@ -1,0 +1,16 @@
+.selected__option__list {
+  display: flex;
+}
+.selected__option__list > div {
+  margin-right: 0.5rem;
+}
+.selected__option__list > div:last-child {
+  margin-right: 0;
+}
+.selected__option__list .option {
+  color: black;
+  font-size: 0.875rem;
+  background: #d8b4fe;
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.25rem;
+}/*# sourceMappingURL=SelectedOptionList.module.css.map */

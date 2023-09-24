@@ -1,0 +1,5 @@
+.home__container {
+  height: calc(100vh - 104px);
+  max-height: calc(100vh - 104px);
+  overflow: hidden;
+}/*# sourceMappingURL=Home.module.css.map */

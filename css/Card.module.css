@@ -1,0 +1,51 @@
+.task__container {
+  border-radius: 0.5rem;
+  background: #27272a;
+  width: 300px;
+  -webkit-animation-duration: 200ms;
+          animation-duration: 200ms;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.task__container.task__container--dragging {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.task__container:hover {
+  cursor: pointer;
+}
+.task__container .task__body {
+  padding: 1rem 1rem 0 1rem;
+}
+.task__container .task__body .task__title {
+  font-size: 1.125rem;
+}
+.task__container .task__body .task__text {
+  color: #71717a;
+}
+.task__container .task__body > div {
+  padding-bottom: 1rem;
+}
+.task__container .task__footer {
+  border-top: 2px solid #18181b;
+  padding: 1rem;
+}
+.task__container .task__footer .avatar__wrapper {
+  display: flex;
+  align-items: center;
+}
+.task__container .task__footer .avatar__wrapper .avatar__wraper > div:first-child {
+  white-space: auto;
+  margin-left: 0;
+}
+.task__container .task__footer .avatar__wrapper .avatar__wrapper > div {
+  margin-left: -10px;
+}
+
+.dragging {
+  cursor: -webkit-grab;
+  cursor: grab;
+  opacity: 0.5;
+}/*# sourceMappingURL=Card.module.css.map */

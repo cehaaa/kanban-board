@@ -1,0 +1,35 @@
+.select {
+  padding: 0.5rem;
+  cursor: pointer;
+  color: #71717a;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.select:hover {
+  background: #27272a;
+}
+.select .options__wrapper {
+  background: #27272a;
+  color: white;
+  padding: 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  border-radius: 0.375rem;
+}
+.select .options__wrapper .options__header {
+  color: #71717a;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select .options__wrapper .options__header .close__icon {
+  width: 1rem;
+  height: 1rem;
+}/*# sourceMappingURL=Select.module.css.map */

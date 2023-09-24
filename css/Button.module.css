@@ -1,0 +1,29 @@
+.button {
+  transition-duration: 200ms;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+.button--secondary {
+  background: #27272a;
+  color: white;
+}
+.button--secondary:hover {
+  background: #71717a;
+}
+.button--primary {
+  background: #b5d6fe;
+  color: #18181b;
+}
+.button--primary:hover {
+  background: red;
+}
+.button--base {
+  padding: 0.7rem 0.9rem;
+  font-size: 0.875rem;
+}
+.button--sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}/*# sourceMappingURL=Button.module.css.map */

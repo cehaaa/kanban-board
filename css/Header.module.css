@@ -1,0 +1,23 @@
+.modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.modal__header .modal__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  color: white;
+}
+.modal__header .modal__header--right {
+  margin-left: auto;
+}
+.modal__header .modal__header--left {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+}
+.modal__header .modal__header--left > * {
+  margin-right: 1rem;
+}/*# sourceMappingURL=Header.module.css.map */

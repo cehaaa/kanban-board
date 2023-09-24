@@ -1,0 +1,14 @@
+.avatar__wrapper {
+	display: flex;
+	align-items: center;
+
+	& > div:first-child {
+		// transform: translateX(0);
+		margin: 0;
+	}
+
+	& > div {
+		// transform: translateX(-10px);
+		margin-left: -8px;
+	}
+}

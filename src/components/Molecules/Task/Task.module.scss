@@ -1,0 +1,58 @@
+@import "./../../../scss/_variables";
+
+.task__container {
+	border-radius: 0.5rem;
+	background: $gray-800;
+	width: 300px;
+	animation-duration: 200ms;
+
+	user-select: none;
+
+	&.task__container--dragging {
+		cursor: grab;
+	}
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	.task__body {
+		padding: 1rem 1rem 0 1rem;
+
+		.task__title {
+			font-size: $font-lg;
+		}
+
+		.task__text {
+			color: $gray-500;
+		}
+
+		& > div {
+			padding-bottom: 0.625rem;
+		}
+	}
+
+	.task__footer {
+		border-top: 2px solid $gray-900;
+		padding: 1rem;
+
+		.avatar__wrapper {
+			display: flex;
+			align-items: center;
+
+			.avatar__wraper > div:first-child {
+				white-space: auto;
+				margin-left: 0;
+			}
+
+			.avatar__wrapper > div {
+				margin-left: -10px;
+			}
+		}
+	}
+}
+
+.dragging {
+	cursor: grab;
+	opacity: 0.5;
+}

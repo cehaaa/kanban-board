@@ -1,0 +1,13 @@
+@import "./../../../scss/variables";
+
+.input {
+	&--title {
+		font-size: $font-4xl;
+		font-weight: 600;
+		margin-bottom: 1rem;
+		background: transparent;
+		border: none;
+		color: white;
+		padding: 0.5rem;
+	}
+}

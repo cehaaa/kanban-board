@@ -1,0 +1,53 @@
+@import "./../../../scss/_variables";
+
+.badge {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: $font-xs;
+	border-radius: 1rem;
+	padding: 0.25rem 1rem;
+	margin-right: 0.5rem;
+	color: black;
+	font-weight: 500;
+
+	&--blue {
+		background: $blue;
+	}
+
+	&--yellow {
+		background: $yellow;
+	}
+
+	&--lime {
+		background: $lime;
+	}
+
+	&--purple {
+		background: $purple;
+	}
+
+	&--rose {
+		background: $rose;
+	}
+
+	&--primary {
+		background: $primary;
+	}
+
+	// &--design {
+	// 	background: $green;
+	// }
+
+	// &--website {
+	// 	background: $primary;
+	// }
+
+	// &--app {
+	// 	background: $warning;
+	// }
+
+	// &--dribbble {
+	// 	background: $danger;
+	// }
+}

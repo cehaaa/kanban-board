@@ -1,0 +1,25 @@
+@import "./../../../../scss/variables";
+
+.options__option {
+	& > .option {
+		margin-bottom: 0.3rem;
+	}
+
+	& > .option:last-child {
+		margin-bottom: 0;
+	}
+
+	.option {
+		font-size: $font-sm;
+		padding: 0.2rem 0.4rem;
+		border-radius: $rounded;
+
+		&:hover {
+			background: $gray-700;
+		}
+
+		&--active {
+			background: $gray-700;
+		}
+	}
+}

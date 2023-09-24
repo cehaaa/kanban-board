@@ -1,0 +1,76 @@
+.side__task__container {
+  min-width: 550px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  position: fixed;
+  transition-duration: 600ms;
+}
+.side__task__container .side__task {
+  width: 100%;
+  height: 100%;
+  background: #27272a;
+  z-index: 10;
+  padding: 2rem;
+}
+.side__task__container .side__task .task__header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+}
+.side__task__container .side__task .task__header--left {
+  display: flex;
+  align-items: center;
+}
+.side__task__container .side__task .task__header--right {
+  display: flex;
+  align-items: center;
+}
+.side__task__container .side__task .task__header--right > * {
+  margin-right: 0.5rem;
+}
+.side__task__container .side__task .task__header--right > *:last-child {
+  margin-right: 0;
+}
+.side__task__container .side__task .task__header .icon__container {
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+  transition-duration: 200ms;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.side__task__container .side__task .task__header .icon__container .icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.side__task__container .side__task .task__header .icon__container:hover {
+  background: #71717a;
+}
+.side__task__container .side__task .task__title {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.side__task__container .side__task .task__information {
+  border-bottom: 1px solid #3f3f46;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.side__task__container .side__task .task__information > .task__information__group {
+  margin-bottom: 1rem;
+}
+.side__task__container .side__task .task__information .task__information__group {
+  display: flex;
+  align-items: center;
+}
+.side__task__container .side__task .task__information .task__information__group .task__information__label {
+  width: 100px;
+}
+
+.side__task__container--close {
+  transform: translateX(100%);
+}/*# sourceMappingURL=SideTask.module.css.map */

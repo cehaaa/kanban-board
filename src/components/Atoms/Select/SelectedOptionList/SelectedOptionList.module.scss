@@ -1,0 +1,21 @@
+@import "./../../../../scss/variables";
+
+.selected__option__list {
+	display: flex;
+
+	& > div {
+		margin-right: 0.5rem;
+	}
+
+	& > div:last-child {
+		margin-right: 0;
+	}
+
+	.option {
+		color: black;
+		font-size: $font-sm;
+		background: $purple;
+		padding: 0.1rem 0.3rem;
+		border-radius: $rounded;
+	}
+}

@@ -1,0 +1,29 @@
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  border-radius: 1rem;
+  padding: 0.25rem 1rem;
+  margin-right: 0.5rem;
+  color: black;
+  font-weight: 500;
+}
+.badge--blue {
+  background: #93c5fd;
+}
+.badge--yellow {
+  background: #fef08a;
+}
+.badge--lime {
+  background: #d9f99d;
+}
+.badge--purple {
+  background: #d8b4fe;
+}
+.badge--rose {
+  background: #fda4af;
+}
+.badge--primary {
+  background: #b5d6fe;
+}/*# sourceMappingURL=Badge.module.css.map */

@@ -1,0 +1,37 @@
+.modal__body {
+  width: 700px;
+  margin: 2rem auto;
+}
+.modal__body .modal__body--title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.modal__body .modal__body--title::before {
+  content: "Untitled";
+  color: #3f3f46;
+}
+.modal__body .modal__body--task__detail {
+  display: flex;
+  padding-bottom: 1rem;
+}
+.modal__body .modal__body--task__detail--left {
+  width: 150px;
+  margin-right: 0.5rem;
+}
+.modal__body .modal__body--task__detail--left > * {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+.modal__body .modal__body--task__detail--left > *:last-child {
+  margin-bottom: 0;
+}
+.modal__body .modal__body--task__detail--right {
+  width: 100%;
+}
+.modal__body .modal__body--task__detail--right > * {
+  margin-bottom: 0.5rem;
+}
+.modal__body .modal__body--task__detail--right > *:last-child {
+  margin-bottom: 0;
+}/*# sourceMappingURL=Body.module.css.map */

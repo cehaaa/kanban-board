@@ -1,0 +1,51 @@
+@import "./../../../scss/_variables.scss";
+
+.column__container {
+	padding: 1rem 0;
+	border-radius: 0.25rem;
+
+	min-width: 300px;
+	height: 100%;
+
+	.column__header {
+		display: flex;
+		align-items: center;
+		font-size: $font-lg;
+
+		position: sticky;
+		top: 0;
+
+		.amount {
+			color: $gray-600;
+			margin-left: 1rem;
+		}
+	}
+
+	.column__tasks {
+		overflow-x: hidden;
+		padding: 1rem 0;
+		min-height: 620px;
+		max-height: 620px;
+		overflow-y: auto;
+		width: 100%;
+
+		&--over {
+			border: 2px dashed red;
+		}
+
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+
+		& > div {
+			margin-bottom: 1rem;
+		}
+
+		& > div:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

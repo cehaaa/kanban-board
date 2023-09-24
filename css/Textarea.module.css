@@ -1,0 +1,10 @@
+.textarea {
+  width: 100%;
+  resize: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}/*# sourceMappingURL=Textarea.module.css.map */

@@ -1,0 +1,39 @@
+@import "./../../../scss/_variables";
+
+.button {
+	transition-duration: 200ms;
+	border: none;
+	border-radius: $rounded;
+	cursor: pointer;
+	font-weight: 500;
+
+	// variant
+	&--secondary {
+		background: $gray-800;
+		color: white;
+
+		&:hover {
+			background: $gray-500;
+		}
+	}
+
+	&--primary {
+		background: $primary;
+		color: $gray-900;
+
+		&:hover {
+			background: red;
+		}
+	}
+
+	// size
+	&--base {
+		padding: 0.7rem 0.9rem;
+		font-size: $font-sm;
+	}
+
+	&--sm {
+		padding: 0.25rem 0.5rem;
+		font-size: $font-sm;
+	}
+}

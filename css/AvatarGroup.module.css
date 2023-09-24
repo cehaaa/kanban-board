@@ -1,0 +1,10 @@
+.avatar__wrapper {
+  display: flex;
+  align-items: center;
+}
+.avatar__wrapper > div:first-child {
+  margin: 0;
+}
+.avatar__wrapper > div {
+  margin-left: -8px;
+}/*# sourceMappingURL=AvatarGroup.module.css.map */

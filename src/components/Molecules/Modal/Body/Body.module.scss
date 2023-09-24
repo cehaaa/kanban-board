@@ -1,0 +1,48 @@
+@import "./../../../../scss/variables";
+
+.modal__body {
+	width: 700px;
+	margin: 2rem auto;
+
+	.modal__body--title {
+		font-size: $font-4xl;
+		font-weight: 600;
+		margin-bottom: 1rem;
+
+		&::before {
+			content: "Untitled";
+			color: $gray-600;
+		}
+	}
+
+	.modal__body--task__detail {
+		display: flex;
+		padding-bottom: 1rem;
+
+		&--left {
+			width: 150px;
+			margin-right: 0.5rem;
+
+			& > * {
+				margin-bottom: 0.5rem;
+				padding: 0.5rem 0.5rem 0.5rem 0;
+			}
+
+			& > *:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		&--right {
+			width: 100%;
+
+			& > * {
+				margin-bottom: 0.5rem;
+			}
+
+			& > *:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

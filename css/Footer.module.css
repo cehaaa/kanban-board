@@ -1,0 +1,7 @@
+.modal__footer {
+  width: 700px;
+  margin: 0 auto;
+}
+.modal__footer > * {
+  margin-left: auto;
+}/*# sourceMappingURL=Footer.module.css.map */
